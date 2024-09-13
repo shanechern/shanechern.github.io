@@ -6,7 +6,7 @@ document.write("  <script src=\"https:\/\/use.fontawesome.com\/baff6f55f5.js\"><
 document.write("    <meta charset=\"utf-8\">");
 document.write("    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">");
 document.write("    <title>Shane Chern<\/title>");
-document.write("    <link rel=\"icon\" type=\"image\/svg\" href=\"https:\/\/shanechern.github.io\/icon\/DAL.svg\" \/>");
+document.write("    <link rel=\"icon\" type=\"image\/svg\" href=\"https:\/\/shanechern.github.io\/icon\/LOGO.svg\" \/>");
 document.write("");
 document.write("    <link rel=\"stylesheet\" href=\"https:\/\/shanechern.github.io\/stylesheets\/styles.css\">");
 document.write("    <link rel=\"stylesheet\" href=\"https:\/\/shanechern.github.io\/stylesheets\/github-light.css\">");
