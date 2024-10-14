@@ -1,0 +1,1150 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     46099,       1142]
+NotebookOptionsPosition[     45249,       1120]
+NotebookOutlinePosition[     45592,       1135]
+CellTagsIndexPosition[     45549,       1132]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Needs", "[", "\"\<Crystallica`\>\"", "]"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"cry", "=", 
+   RowBox[{"Legended", "[", 
+    RowBox[{
+     RowBox[{"CrystalPlot", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"5", ",", "0", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "5", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0", ",", "5"}], "}"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", ".5", ",", ".5"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{".5", ",", ".5", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{".5", ",", "0", ",", ".5"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{".5", ",", "0", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", ".5", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0", ",", ".5"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{".5", ",", ".5", ",", ".5"}], "}"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "1", ",", "1", ",", "1", ",", "1", ",", "2", ",", "2", ",", "2", ",", 
+         "2"}], "}"}], ",", 
+       RowBox[{"AtomCol", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"\"\<Na\>\"", ",", "\"\<Cl\>\""}], "}"}]}], ",", 
+       RowBox[{"AtomRad", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"0.35", ",", "0.45"}], "}"}]}], ",", 
+       RowBox[{"BondStyle", "\[Rule]", "2"}], ",", 
+       RowBox[{"BondDist", "\[Rule]", "3"}], ",", 
+       RowBox[{"BondRad", "\[Rule]", "0.15"}], ",", 
+       RowBox[{"CellLineStyle", "\[Rule]", "False"}], ",", 
+       RowBox[{"AddQ", "\[Rule]", "True"}], ",", 
+       RowBox[{"Lighting", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"{", 
+          RowBox[{"\"\<Directional\>\"", ",", "White", ",", 
+           RowBox[{"ImageScaled", "[", 
+            RowBox[{"{", 
+             RowBox[{"0", ",", "0", ",", "1"}], "}"}], "]"}]}], "}"}], 
+         "}"}]}], ",", 
+       RowBox[{"ImageSize", "\[Rule]", "300"}]}], "]"}], ",", 
+     RowBox[{"Placed", "[", 
+      RowBox[{
+       RowBox[{"SwatchLegend", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"ColorData", "[", 
+            RowBox[{"\"\<Atoms\>\"", ",", "\"\<Na\>\""}], "]"}], ",", 
+           RowBox[{"ColorData", "[", 
+            RowBox[{"\"\<Atoms\>\"", ",", "\"\<Cl\>\""}], "]"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+          "\"\<\!\(\*SuperscriptBox[\(Na\), \(+\)]\)\>\"", ",", 
+           "\"\<\!\(\*SuperscriptBox[\(Cl\), \(-\)]\)\>\""}], "}"}]}], "]"}], 
+       ",", "After"}], "]"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{"cry", ",", 
+   RowBox[{"Background", "\[Rule]", "White"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"NotebookDirectory", "[", "]"}], "<>", "\"\<NaCl.pdf\>\""}], ",", 
+   "cry"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.9232396599748774`*^9, 3.923239710572698*^9}, {
+   3.9232397557162313`*^9, 3.9232398130399466`*^9}, {3.923239848511162*^9, 
+   3.923239864479018*^9}, {3.9232399221441183`*^9, 3.9232399714968224`*^9}, {
+   3.9232400941895447`*^9, 3.923240095635867*^9}, {3.9232402943276734`*^9, 
+   3.923240380803679*^9}, {3.9232404753922863`*^9, 3.923240524888438*^9}, {
+   3.9232405639555197`*^9, 3.9232406060024076`*^9}, {3.923240680680951*^9, 
+   3.9232406906116605`*^9}, {3.923240752028818*^9, 3.9232407842422047`*^9}, {
+   3.9232408744532547`*^9, 3.92324090682997*^9}, {3.923240981944721*^9, 
+   3.92324098534225*^9}, {3.92324113220078*^9, 3.923241134261567*^9}, {
+   3.923241193964121*^9, 3.923241204900055*^9}, {3.9232413528356156`*^9, 
+   3.923241368853853*^9}, {3.923241429693134*^9, 3.92324145813735*^9}, {
+   3.9232418540861044`*^9, 3.923241869159459*^9}, {3.923241949109563*^9, 
+   3.923241958911248*^9}, {3.9232420385639486`*^9, 3.9232420954064894`*^9}, {
+   3.9232421717089553`*^9, 3.9232422771873446`*^9}, {3.923242308819355*^9, 
+   3.9232423816099777`*^9}, {3.9232424310444984`*^9, 
+   3.9232424376873684`*^9}, {3.923242486463554*^9, 3.9232425797592783`*^9}, {
+   3.9232426458480425`*^9, 3.9232427195758266`*^9}, 3.923243112887636*^9, {
+   3.9232441537249565`*^9, 3.923244160027964*^9}, {3.9232457771127396`*^9, 
+   3.9232457813794675`*^9}, {3.923245832966697*^9, 3.9232458508055515`*^9}, {
+   3.9232459067844477`*^9, 3.9232459090254087`*^9}, {3.9232467963208084`*^9, 
+   3.9232468040924425`*^9}, {3.9232469503355093`*^9, 
+   3.9232469864077387`*^9}, {3.9232470962576447`*^9, 
+   3.9232470968476195`*^9}, {3.9232471461287737`*^9, 3.9232471660849547`*^9}, 
+   3.9232471988098288`*^9, {3.923404273750018*^9, 3.9234042833386955`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"191ad51e-81d7-442b-93f1-4a87512571d3"],
+
+Cell[BoxData[
+ TemplateBox[{Graphics3DBox[{{}, {}, 
+     TubeBox[{{0., 0., 0.}, {2.5, 0., 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{0., 0., 0.}, {0., 2.5, 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{0., 0., 0.}, {0., 0., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{0., 2.5, 2.5}, {0., 2.5, 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{0., 2.5, 2.5}, {0., 0., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{0., 2.5, 2.5}, {2.5, 2.5, 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{0., 2.5, 2.5}, {0., 5., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{0., 2.5, 2.5}, {0., 2.5, 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 2.5, 0.}, {2.5, 0., 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 2.5, 0.}, {0., 2.5, 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 2.5, 0.}, {2.5, 2.5, 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 2.5, 0.}, {5., 2.5, 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 2.5, 0.}, {2.5, 5., 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 0., 2.5}, {2.5, 0., 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 0., 2.5}, {0., 0., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 0., 2.5}, {2.5, 2.5, 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 0., 2.5}, {5., 0., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 0., 2.5}, {2.5, 0., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 0., 0.}, {5., 0., 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{0., 2.5, 0.}, {0., 5., 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{0., 0., 2.5}, {0., 0., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{2.5, 2.5, 2.5}, {5., 2.5, 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{2.5, 2.5, 2.5}, {2.5, 5., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{2.5, 2.5, 2.5}, {2.5, 2.5, 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{5., 0., 0.}, {5., 2.5, 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{5., 0., 0.}, {5., 0., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{5., 2.5, 2.5}, {5., 2.5, 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{5., 2.5, 2.5}, {5., 0., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{5., 2.5, 2.5}, {5., 5., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{5., 2.5, 2.5}, {5., 2.5, 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{5., 2.5, 0.}, {5., 5., 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{5., 0., 2.5}, {5., 0., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{0., 5., 0.}, {2.5, 5., 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{0., 5., 0.}, {0., 5., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 5., 2.5}, {2.5, 5., 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 5., 2.5}, {0., 5., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 5., 2.5}, {5., 5., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 5., 2.5}, {2.5, 5., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 5., 0.}, {5., 5., 0.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{0., 5., 2.5}, {0., 5., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{5., 5., 0.}, {5., 5., 2.5}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{5., 5., 2.5}, {5., 5., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{0., 0., 5.}, {2.5, 0., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{0., 0., 5.}, {0., 2.5, 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 2.5, 5.}, {2.5, 0., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 2.5, 5.}, {0., 2.5, 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 2.5, 5.}, {5., 2.5, 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 2.5, 5.}, {2.5, 5., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 0., 5.}, {5., 0., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{0., 2.5, 5.}, {0., 5., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{5., 0., 5.}, {5., 2.5, 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{5., 2.5, 5.}, {5., 5., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TubeBox[{{0., 5., 5.}, {2.5, 5., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}}], 
+     TubeBox[{{2.5, 5., 5.}, {5., 5., 5.}}, 0.15, VertexColors -> {{
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.412698, 0.932689, 0.166398]}, {
+         Specularity[
+          GrayLevel[0.5], 100], 
+         RGBColor[0.658708, 0.492173, 0.842842]}}], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{0, 0, 0}, 0.35], "Ball"]}, "1"], 
+      Annotation[#, 1, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{0., 2.5, 2.5}, 0.35], "Ball"]}, "2"], 
+      Annotation[#, 2, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{2.5, 2.5, 0.}, 0.35], "Ball"]}, "3"], 
+      Annotation[#, 3, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{2.5, 0., 2.5}, 0.35], "Ball"]}, "4"], 
+      Annotation[#, 4, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{2.5, 0., 0.}, 0.45], "Ball"]}, "5"], 
+      Annotation[#, 5, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{0., 2.5, 0.}, 0.45], "Ball"]}, "6"], 
+      Annotation[#, 6, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{0., 0., 2.5}, 0.45], "Ball"]}, "7"], 
+      Annotation[#, 7, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{2.5, 2.5, 2.5}, 0.45], "Ball"]}, "8"], 
+      Annotation[#, 8, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{5, 0, 0}, 0.35], "Ball"]}, "9"], 
+      Annotation[#, 9, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{5., 2.5, 2.5}, 0.35], "Ball"]}, "10"], 
+      Annotation[#, 10, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{5., 2.5, 0.}, 0.45], "Ball"]}, "11"], 
+      Annotation[#, 11, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{5., 0., 2.5}, 0.45], "Ball"]}, "12"], 
+      Annotation[#, 12, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{0, 5, 0}, 0.35], "Ball"]}, "13"], 
+      Annotation[#, 13, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{2.5, 5., 2.5}, 0.35], "Ball"]}, "14"], 
+      Annotation[#, 14, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{2.5, 5., 0.}, 0.45], "Ball"]}, "15"], 
+      Annotation[#, 15, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{0., 5., 2.5}, 0.45], "Ball"]}, "16"], 
+      Annotation[#, 16, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{5, 5, 0}, 0.35], "Ball"]}, "17"], 
+      Annotation[#, 17, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{5., 5., 2.5}, 0.45], "Ball"]}, "18"], 
+      Annotation[#, 18, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{0, 0, 5}, 0.35], "Ball"]}, "19"], 
+      Annotation[#, 19, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{2.5, 2.5, 5.}, 0.35], "Ball"]}, "20"], 
+      Annotation[#, 20, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{2.5, 0., 5.}, 0.45], "Ball"]}, "21"], 
+      Annotation[#, 21, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{0., 2.5, 5.}, 0.45], "Ball"]}, "22"], 
+      Annotation[#, 22, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{5, 0, 5}, 0.35], "Ball"]}, "23"], 
+      Annotation[#, 23, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{5., 2.5, 5.}, 0.45], "Ball"]}, "24"], 
+      Annotation[#, 24, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{0, 5, 5}, 0.35], "Ball"]}, "25"], 
+      Annotation[#, 25, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.412698, 0.932689, 0.166398], 
+        TagBox[
+         SphereBox[{2.5, 5., 5.}, 0.45], "Ball"]}, "26"], 
+      Annotation[#, 26, "Tooltip"]& ], 
+     TagBox[
+      TooltipBox[{
+        RGBColor[0.658708, 0.492173, 0.842842], 
+        TagBox[
+         SphereBox[{5, 5, 5}, 0.35], "Ball"]}, "27"], 
+      Annotation[#, 27, "Tooltip"]& ]}, {
+    Background -> GrayLevel[1], BaseStyle -> {
+       Specularity[
+        GrayLevel[0.5], 100]}, Lighting -> {{"Directional", 
+        GrayLevel[1], 
+        ImageScaled[{0, 0, 1}]}}, ImageSize -> 300, Boxed -> False, 
+     SphericalRegion -> True, Lighting -> "Neutral"}],FormBox[
+    FormBox[
+     TemplateBox[{
+      "\"\\!\\(\\*SuperscriptBox[\\(Na\\), \\(+\\)]\\)\"", 
+       "\"\\!\\(\\*SuperscriptBox[\\(Cl\\), \\(-\\)]\\)\""}, "SwatchLegend", 
+      DisplayFunction -> (FormBox[
+        StyleBox[
+         StyleBox[
+          PaneBox[
+           TagBox[
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   GraphicsBox[{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0.658708, 0.492173, 0.842842]], 
+                    RectangleBox[{0, 0}, {10, 10}, "RoundingRadius" -> 0]}, 
+                    AspectRatio -> Full, ImageSize -> {10, 10}, 
+                    PlotRangePadding -> None, ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #}, {
+                   GraphicsBox[{
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0.412698, 0.932689, 0.166398]], 
+                    RectangleBox[{0, 0}, {10, 10}, "RoundingRadius" -> 0]}, 
+                    AspectRatio -> Full, ImageSize -> {10, 10}, 
+                    PlotRangePadding -> None, ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #2}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Center, Left}, "Rows" -> {{Baseline}}}, 
+                 AutoDelete -> False, 
+                 GridBoxDividers -> {
+                  "Columns" -> {{False}}, "Rows" -> {{False}}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {
+                  "Columns" -> {{0.5}}, "Rows" -> {{0.5}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+             AutoDelete -> False, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{1}}, "Rows" -> {{0}}}], 
+            "Grid"], Alignment -> Left, AppearanceElements -> None, 
+           ImageMargins -> {{5, 5}, {5, 5}}, ImageSizeAction -> 
+           "ResizeToFit"], LineIndent -> 0, StripOnInput -> False], {
+         FontFamily -> "Arial"}, Background -> Automatic, StripOnInput -> 
+         False], TraditionalForm]& ), 
+      InterpretationFunction :> (RowBox[{"SwatchLegend", "[", 
+         RowBox[{
+           RowBox[{"{", 
+             RowBox[{
+               InterpretationBox[
+                ButtonBox[
+                 TooltipBox[
+                  GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.658708, 0.492173, 0.842842], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                   "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                   FrameStyle -> 
+                   RGBColor[
+                    0.4391386666666667, 0.32811533333333337`, 
+                    0.5618946666666667], FrameTicks -> None, PlotRangePadding -> 
+                   None, ImageSize -> 
+                   Dynamic[{
+                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                  StyleBox[
+                   RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.658708`", ",", "0.492173`", ",", "0.842842`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                 BaseStyle -> {}, BaselinePosition -> Baseline, 
+                 DefaultBaseStyle -> {}, ButtonFunction :> 
+                 With[{Typeset`box$ = EvaluationBox[]}, 
+                   If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.658708, 0.492173, 0.842842]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                 Automatic, Method -> "Preemptive"], 
+                RGBColor[0.658708, 0.492173, 0.842842], Editable -> False, 
+                Selectable -> False], ",", 
+               InterpretationBox[
+                ButtonBox[
+                 TooltipBox[
+                  GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.412698, 0.932689, 0.166398], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                   "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                   FrameStyle -> 
+                   RGBColor[
+                    0.27513200000000004`, 0.6217926666666667, 0.110932], 
+                   FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                   Dynamic[{
+                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                  StyleBox[
+                   RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.412698`", ",", "0.932689`", ",", "0.166398`"}],
+                     "]"}], NumberMarks -> False]], Appearance -> None, 
+                 BaseStyle -> {}, BaselinePosition -> Baseline, 
+                 DefaultBaseStyle -> {}, ButtonFunction :> 
+                 With[{Typeset`box$ = EvaluationBox[]}, 
+                   If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.412698, 0.932689, 0.166398]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                 Automatic, Method -> "Preemptive"], 
+                RGBColor[0.412698, 0.932689, 0.166398], Editable -> False, 
+                Selectable -> False]}], "}"}], ",", 
+           RowBox[{"{", 
+             RowBox[{#, ",", #2}], "}"}]}], "]"}]& ), Editable -> True], 
+     TraditionalForm], TraditionalForm]},
+  "Legended",
+  DisplayFunction->(GridBox[{{
+      TagBox[
+       ItemBox[
+        PaneBox[
+         TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+         BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+       "SkipImageSizeLevel"], 
+      ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+    GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+    AutoDelete -> False, GridBoxItemSize -> Automatic, 
+    BaselinePosition -> {1, 1}]& ),
+  Editable->True,
+  InterpretationFunction->(RowBox[{"Legended", "[", 
+     RowBox[{#, ",", 
+       RowBox[{"Placed", "[", 
+         RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.923242614107574*^9, {3.923242680433872*^9, 3.923242720235787*^9}, 
+   3.9232431136675777`*^9, 3.9232437721015472`*^9, 3.923244160718007*^9, 
+   3.923245781980536*^9, 3.9232458526469083`*^9, 3.923245909666873*^9, {
+   3.9232467978106813`*^9, 3.9232468048737316`*^9}, {3.923246971794426*^9, 
+   3.923246980952387*^9}, 3.923247097669221*^9, {3.9232471472319746`*^9, 
+   3.9232471667949076`*^9}, 3.923247200864024*^9, 3.923404287450446*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"94869ff6-0197-4a5b-a3b9-035b8093e1e2"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\Shane\\\\Mathematics\\\\Notebook\\\\\
+Mathematica\\\\Codes\\\\Lattice Green Function\\\\NaCl.pdf\"\>"], "Output",
+ CellChangeTimes->{
+  3.923242614107574*^9, {3.923242680433872*^9, 3.923242720235787*^9}, 
+   3.9232431136675777`*^9, 3.9232437721015472`*^9, 3.923244160718007*^9, 
+   3.923245781980536*^9, 3.9232458526469083`*^9, 3.923245909666873*^9, {
+   3.9232467978106813`*^9, 3.9232468048737316`*^9}, {3.923246971794426*^9, 
+   3.923246980952387*^9}, 3.923247097669221*^9, {3.9232471472319746`*^9, 
+   3.9232471667949076`*^9}, 3.923247200864024*^9, 3.923404291680855*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"57fee4da-bb5a-43d4-a505-bd9db36b1e8c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"cry1", "=", 
+   RowBox[{"CrystalPlot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"5", ",", "0", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "5", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", "5"}], "}"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", ".5", ",", ".5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{".5", ",", ".5", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{".5", ",", "0", ",", ".5"}], "}"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "2", ",", "2", ",", "2"}], "}"}], ",", 
+     RowBox[{"AtomCol", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Na\>\"", ",", "\"\<Na\>\""}], "}"}]}], ",", 
+     RowBox[{"AtomRad", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"0.35", ",", "0.35"}], "}"}]}], ",", 
+     RowBox[{"BondStyle", "\[Rule]", "0"}], ",", 
+     RowBox[{"BondDist", "\[Rule]", 
+      RowBox[{"-", "3"}]}], ",", 
+     RowBox[{"BondRad", "\[Rule]", "0.03"}], ",", 
+     RowBox[{"CellLineStyle", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "0"}], "}"}]}], ",", 
+     RowBox[{"BondCol", "\[Rule]", "LightGray"}], ",", 
+     RowBox[{"AddQ", "\[Rule]", "True"}], ",", 
+     RowBox[{"Lighting", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Directional\>\"", ",", "White", ",", 
+         RowBox[{"ImageScaled", "[", 
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0", ",", "1"}], "}"}], "]"}]}], "}"}], "}"}]}], 
+     ",", 
+     RowBox[{"Background", "\[Rule]", "White"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "300"}], ",", 
+     RowBox[{"ForceBonds", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<AtomsStrong\>\"", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "9"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"1", ",", "12"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"1", ",", "13"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"5", ",", "7"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"5", ",", "10"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"5", ",", "14"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"7", ",", "10"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"7", ",", "14"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"12", ",", "9"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"12", ",", "13"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"10", ",", "14"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"9", ",", "13"}], "}"}]}], "}"}]}], "}"}]}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{"cry1", ",", 
+   RowBox[{"Background", "\[Rule]", "White"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"NotebookDirectory", "[", "]"}], "<>", "\"\<FCC.pdf\>\""}], ",", 
+   "cry1"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.9232427365271564`*^9, 3.923242777130715*^9}, {
+   3.9232428761433525`*^9, 3.9232428846581945`*^9}, {3.9232429275312815`*^9, 
+   3.9232429588418684`*^9}, {3.923243001400585*^9, 3.923243004804341*^9}, {
+   3.9232430593250017`*^9, 3.9232431018838263`*^9}, {3.9232431625552845`*^9, 
+   3.9232432812070975`*^9}, {3.9232436851045136`*^9, 
+   3.9232437520880957`*^9}, {3.92324378457874*^9, 3.923243829177757*^9}, {
+   3.92324403697324*^9, 3.9232440439198914`*^9}, {3.92324413828123*^9, 
+   3.9232441396728554`*^9}, {3.923244243492131*^9, 3.9232442535124416`*^9}, {
+   3.9232443824746575`*^9, 3.9232443845252304`*^9}, 3.923244583541892*^9, {
+   3.923244633244255*^9, 3.9232448742928667`*^9}, {3.923244918736055*^9, 
+   3.9232449232091165`*^9}, {3.9232450298714657`*^9, 
+   3.9232450633560038`*^9}, {3.923245107690829*^9, 3.923245534743542*^9}, {
+   3.923247285191234*^9, 3.9232472853812237`*^9}, {3.9232473602380257`*^9, 
+   3.923247360408023*^9}, {3.9232473950223722`*^9, 3.9232474292826047`*^9}, {
+   3.9232474650056996`*^9, 3.923247465837373*^9}, {3.923247502436613*^9, 
+   3.923247518064356*^9}, {3.923247675779003*^9, 3.923247683907072*^9}},
+ CellLabel->
+  "In[508]:=",ExpressionUUID->"0db3db2e-8790-4673-b588-1359a2b6593c"],
+
+Cell[BoxData[
+ Graphics3DBox[{{
+    {GrayLevel[0], 
+     TubeBox[{{{0, 0, 0}, {5, 0, 0}, {5, 5, 0}, {0, 5, 0}, {0, 0, 0}}, {{0, 0,
+       5}, {5, 0, 5}, {5, 5, 5}, {0, 5, 5}, {0, 0, 5}}}, 0.02]}, 
+    {GrayLevel[0], 
+     TubeBox[{{{0, 0, 0}, {0, 0, 5}}, {{5, 0, 0}, {5, 0, 5}}, {{5, 5, 0}, {5, 
+      5, 5}}, {{0, 5, 0}, {0, 5, 5}}}, 0.02]}}, {}, 
+   {GrayLevel[0.85], TubeBox[{{0, 0, 0}, {5, 5, 0}}, 0.03]}, 
+   {GrayLevel[0.85], TubeBox[{{0, 0, 0}, {5, 0, 5}}, 0.03]}, 
+   {GrayLevel[0.85], TubeBox[{{0, 0, 0}, {0, 5, 5}}, 0.03]}, 
+   {GrayLevel[0.85], TubeBox[{{5, 0, 0}, {0, 5, 0}}, 0.03]}, 
+   {GrayLevel[0.85], TubeBox[{{5, 0, 0}, {0, 0, 5}}, 0.03]}, 
+   {GrayLevel[0.85], TubeBox[{{5, 0, 0}, {5, 5, 5}}, 0.03]}, 
+   {GrayLevel[0.85], TubeBox[{{0, 5, 0}, {0, 0, 5}}, 0.03]}, 
+   {GrayLevel[0.85], TubeBox[{{0, 5, 0}, {5, 5, 5}}, 0.03]}, 
+   {GrayLevel[0.85], TubeBox[{{5, 5, 0}, {5, 0, 5}}, 0.03]}, 
+   {GrayLevel[0.85], TubeBox[{{5, 0, 5}, {0, 5, 5}}, 0.03]}, 
+   {GrayLevel[0.85], TubeBox[{{0, 0, 5}, {5, 5, 5}}, 0.03]}, 
+   {GrayLevel[0.85], TubeBox[{{5, 5, 0}, {0, 5, 5}}, 0.03]}, 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{0, 0, 0}, 0.35],
+       "Ball"]},
+     "1"],
+    Annotation[#, 1, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{0., 2.5, 2.5}, 0.35],
+       "Ball"]},
+     "2"],
+    Annotation[#, 2, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{2.5, 2.5, 0.}, 0.35],
+       "Ball"]},
+     "3"],
+    Annotation[#, 3, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{2.5, 0., 2.5}, 0.35],
+       "Ball"]},
+     "4"],
+    Annotation[#, 4, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{5, 0, 0}, 0.35],
+       "Ball"]},
+     "5"],
+    Annotation[#, 5, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{5., 2.5, 2.5}, 0.35],
+       "Ball"]},
+     "6"],
+    Annotation[#, 6, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{0, 5, 0}, 0.35],
+       "Ball"]},
+     "7"],
+    Annotation[#, 7, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{2.5, 5., 2.5}, 0.35],
+       "Ball"]},
+     "8"],
+    Annotation[#, 8, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{5, 5, 0}, 0.35],
+       "Ball"]},
+     "9"],
+    Annotation[#, 9, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{0, 0, 5}, 0.35],
+       "Ball"]},
+     "10"],
+    Annotation[#, 10, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{2.5, 2.5, 5.}, 0.35],
+       "Ball"]},
+     "11"],
+    Annotation[#, 11, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{5, 0, 5}, 0.35],
+       "Ball"]},
+     "12"],
+    Annotation[#, 12, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{0, 5, 5}, 0.35],
+       "Ball"]},
+     "13"],
+    Annotation[#, 13, "Tooltip"]& ], 
+   TagBox[
+    TooltipBox[
+     {RGBColor[0.658708, 0.492173, 0.842842], 
+      TagBox[SphereBox[{5, 5, 5}, 0.35],
+       "Ball"]},
+     "14"],
+    Annotation[#, 14, "Tooltip"]& ]},
+  Background->GrayLevel[1],
+  BaseStyle->{
+    Specularity[
+     GrayLevel[0.5], 100]},
+  Boxed->False,
+  ImageSize->300,
+  Lighting->{{"Directional", 
+     GrayLevel[1], 
+     ImageScaled[{0, 0, 1}]}},
+  SphericalRegion->True]], "Output",
+ CellChangeTimes->{{3.923245478271756*^9, 3.923245535574662*^9}, 
+   3.923247286351166*^9, 3.923247360858*^9, {3.923247413721252*^9, 
+   3.9232474300925455`*^9}, 3.9232474663472567`*^9, {3.923247503356512*^9, 
+   3.923247518564253*^9}, 3.923247685940635*^9},
+ CellLabel->
+  "Out[509]=",ExpressionUUID->"3010b9ac-65cf-4e4f-ba2e-44c98cbe54cc"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\Shane\\\\Mathematics\\\\Notebook\\\\\
+Mathematica\\\\Codes\\\\Lattice Green Function\\\\FCC.pdf\"\>"], "Output",
+ CellChangeTimes->{{3.923245478271756*^9, 3.923245535574662*^9}, 
+   3.923247286351166*^9, 3.923247360858*^9, {3.923247413721252*^9, 
+   3.9232474300925455`*^9}, 3.9232474663472567`*^9, {3.923247503356512*^9, 
+   3.923247518564253*^9}, 3.9232476877808847`*^9},
+ CellLabel->
+  "Out[510]=",ExpressionUUID->"ce3bcbd9-aba3-4969-a4a9-9edc9c039685"]
+}, Open  ]]
+},
+WindowSize->{759, 573},
+WindowMargins->{{121, Automatic}, {60, Automatic}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4976, 106, 219, "Input",ExpressionUUID->"191ad51e-81d7-442b-93f1-4a87512571d3"],
+Cell[5559, 130, 29778, 722, 319, "Output",ExpressionUUID->"94869ff6-0197-4a5b-a3b9-035b8093e1e2"],
+Cell[35340, 854, 685, 9, 32, "Output",ExpressionUUID->"57fee4da-bb5a-43d4-a505-bd9db36b1e8c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36062, 868, 4442, 105, 219, "Input",ExpressionUUID->"0db3db2e-8790-4673-b588-1359a2b6593c"],
+Cell[40507, 975, 4234, 133, 317, "Output",ExpressionUUID->"3010b9ac-65cf-4e4f-ba2e-44c98cbe54cc"],
+Cell[44744, 1110, 489, 7, 32, "Output",ExpressionUUID->"ce3bcbd9-aba3-4969-a4a9-9edc9c039685"]
+}, Open  ]]
+}
+]
+*)
+
