@@ -1,0 +1,226 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7387,        218]
+NotebookOptionsPosition[      6997,        204]
+NotebookOutlinePosition[      7340,        219]
+CellTagsIndexPosition[      7297,        216]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ StyleBox["The initial expressions of ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["U", "5"], "(", 
+    RowBox[{"\[Gamma]", "*", 
+     SuperscriptBox["\[Xi]", "i"]}], ")"}], TraditionalForm]],
+  FontSize->18,ExpressionUUID->"aecb42e9-c4e2-4630-af15-3a5da72b8805"],
+ StyleBox[" for ",
+  FontSize->18],
+ StyleBox["0 \[LessEqual] i \[LessEqual] 4. Here ", "InlineFormula",
+  FontSize->18],
+ StyleBox["UofGammaXi[i]", "InlineFormula",
+  FontSize->18,
+  FontColor->RGBColor[0, 0, 1]],
+ StyleBox[" denotes ", "InlineFormula",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["U", "5"], "(", 
+    RowBox[{"\[Gamma]", "*", 
+     SuperscriptBox["\[Xi]", "i"]}], ")"}], TraditionalForm]],
+  FontSize->18,ExpressionUUID->"65f2cb8e-75b1-4483-a0bb-137ac29c30b2"],
+ StyleBox[".",
+  FontSize->18]
+}], "Text",
+ CellChangeTimes->{{3.956522239069229*^9, 3.9565222950081816`*^9}, {
+  3.9565223737278595`*^9, 3.9565224492119884`*^9}, {3.9565224928049316`*^9, 
+  3.9565225337977133`*^9}, {3.9565231524775763`*^9, 3.956523156527272*^9}, {
+  3.956523219490966*^9, 
+  3.9565232251831303`*^9}},ExpressionUUID->"419d5e85-56ec-47e8-ba3e-\
+d103f97a8829"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"UofGammaXi", "[", "0", "]"}], "=", 
+   RowBox[{"\[Xi]", "-", 
+    RowBox[{"5", " ", 
+     SuperscriptBox["\[Xi]", "2"]}], "+", 
+    RowBox[{"5", " ", 
+     SuperscriptBox["\[Xi]", "3"]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"UofGammaXi", "[", "1", "]"}], "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "3"}], " ", "\[Xi]"}], "+", 
+    RowBox[{"79", " ", 
+     SuperscriptBox["\[Xi]", "2"]}], "-", 
+    RowBox[{"675", " ", 
+     SuperscriptBox["\[Xi]", "3"]}], "+", 
+    RowBox[{"2850", " ", 
+     SuperscriptBox["\[Xi]", "4"]}], "-", 
+    RowBox[{"7250", " ", 
+     SuperscriptBox["\[Xi]", "5"]}], "+", 
+    RowBox[{"11250", " ", 
+     SuperscriptBox["\[Xi]", "6"]}], "-", 
+    RowBox[{"9375", " ", 
+     SuperscriptBox["\[Xi]", "7"]}], "+", 
+    RowBox[{"3125", " ", 
+     SuperscriptBox["\[Xi]", "8"]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"UofGammaXi", "[", "2", "]"}], "=", 
+   RowBox[{"\[Xi]", "-", 
+    RowBox[{"225", " ", 
+     SuperscriptBox["\[Xi]", "2"]}], "+", 
+    RowBox[{"5725", " ", 
+     SuperscriptBox["\[Xi]", "3"]}], "-", 
+    RowBox[{"64875", " ", 
+     SuperscriptBox["\[Xi]", "4"]}], "+", 
+    RowBox[{"434375", " ", 
+     SuperscriptBox["\[Xi]", "5"]}], "-", 
+    RowBox[{"1946875", " ", 
+     SuperscriptBox["\[Xi]", "6"]}], "+", 
+    RowBox[{"6181250", " ", 
+     SuperscriptBox["\[Xi]", "7"]}], "-", 
+    RowBox[{"14218750", " ", 
+     SuperscriptBox["\[Xi]", "8"]}], "+", 
+    RowBox[{"23671875", " ", 
+     SuperscriptBox["\[Xi]", "9"]}], "-", 
+    RowBox[{"27734375", " ", 
+     SuperscriptBox["\[Xi]", "10"]}], "+", 
+    RowBox[{"21484375", " ", 
+     SuperscriptBox["\[Xi]", "11"]}], "-", 
+    RowBox[{"9765625", " ", 
+     SuperscriptBox["\[Xi]", "12"]}], "+", 
+    RowBox[{"1953125", " ", 
+     SuperscriptBox["\[Xi]", "13"]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"UofGammaXi", "[", "3", "]"}], "=", 
+   RowBox[{
+    RowBox[{"266", " ", 
+     SuperscriptBox["\[Xi]", "2"]}], "-", 
+    RowBox[{"18165", " ", 
+     SuperscriptBox["\[Xi]", "3"]}], "+", 
+    RowBox[{"438775", " ", 
+     SuperscriptBox["\[Xi]", "4"]}], "-", 
+    RowBox[{"5793375", " ", 
+     SuperscriptBox["\[Xi]", "5"]}], "+", 
+    RowBox[{"49756875", " ", 
+     SuperscriptBox["\[Xi]", "6"]}], "-", 
+    RowBox[{"304193750", " ", 
+     SuperscriptBox["\[Xi]", "7"]}], "+", 
+    RowBox[{"1393481250", " ", 
+     SuperscriptBox["\[Xi]", "8"]}], "-", 
+    RowBox[{"4928984375", " ", 
+     SuperscriptBox["\[Xi]", "9"]}], "+", 
+    RowBox[{"13685546875", " ", 
+     SuperscriptBox["\[Xi]", "10"]}], "-", 
+    RowBox[{"30013671875", " ", 
+     SuperscriptBox["\[Xi]", "11"]}], "+", 
+    RowBox[{"51851953125", " ", 
+     SuperscriptBox["\[Xi]", "12"]}], "-", 
+    RowBox[{"69726562500", " ", 
+     SuperscriptBox["\[Xi]", "13"]}], "+", 
+    RowBox[{"71298828125", " ", 
+     SuperscriptBox["\[Xi]", "14"]}], "-", 
+    RowBox[{"53320312500", " ", 
+     SuperscriptBox["\[Xi]", "15"]}], "+", 
+    RowBox[{"27343750000", " ", 
+     SuperscriptBox["\[Xi]", "16"]}], "-", 
+    RowBox[{"8544921875", " ", 
+     SuperscriptBox["\[Xi]", "17"]}], "+", 
+    RowBox[{"1220703125", " ", 
+     SuperscriptBox["\[Xi]", "18"]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"UofGammaXi", "[", "4", "]"}], "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "174"}], " ", 
+     SuperscriptBox["\[Xi]", "2"]}], "+", 
+    RowBox[{"31275", " ", 
+     SuperscriptBox["\[Xi]", "3"]}], "-", 
+    RowBox[{"1489725", " ", 
+     SuperscriptBox["\[Xi]", "4"]}], "+", 
+    RowBox[{"34901125", " ", 
+     SuperscriptBox["\[Xi]", "5"]}], "-", 
+    RowBox[{"505783125", " ", 
+     SuperscriptBox["\[Xi]", "6"]}], "+", 
+    RowBox[{"5092031250", " ", 
+     SuperscriptBox["\[Xi]", "7"]}], "-", 
+    RowBox[{"38116096875", " ", 
+     SuperscriptBox["\[Xi]", "8"]}], "+", 
+    RowBox[{"221429531250", " ", 
+     SuperscriptBox["\[Xi]", "9"]}], "-", 
+    RowBox[{"1026822656250", " ", 
+     SuperscriptBox["\[Xi]", "10"]}], "+", 
+    RowBox[{"3872170781250", " ", 
+     SuperscriptBox["\[Xi]", "11"]}], "-", 
+    RowBox[{"12015087890625", " ", 
+     SuperscriptBox["\[Xi]", "12"]}], "+", 
+    RowBox[{"30877207031250", " ", 
+     SuperscriptBox["\[Xi]", "13"]}], "-", 
+    RowBox[{"65850722656250", " ", 
+     SuperscriptBox["\[Xi]", "14"]}], "+", 
+    RowBox[{"116285888671875", " ", 
+     SuperscriptBox["\[Xi]", "15"]}], "-", 
+    RowBox[{"168908203125000", " ", 
+     SuperscriptBox["\[Xi]", "16"]}], "+", 
+    RowBox[{"199452392578125", " ", 
+     SuperscriptBox["\[Xi]", "17"]}], "-", 
+    RowBox[{"188031005859375", " ", 
+     SuperscriptBox["\[Xi]", "18"]}], "+", 
+    RowBox[{"137768554687500", " ", 
+     SuperscriptBox["\[Xi]", "19"]}], "-", 
+    RowBox[{"75347900390625", " ", 
+     SuperscriptBox["\[Xi]", "20"]}], "+", 
+    RowBox[{"28839111328125", " ", 
+     SuperscriptBox["\[Xi]", "21"]}], "-", 
+    RowBox[{"6866455078125", " ", 
+     SuperscriptBox["\[Xi]", "22"]}], "+", 
+    RowBox[{"762939453125", " ", 
+     SuperscriptBox["\[Xi]", "23"]}]}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.956522552678623*^9, 
+  3.9565225736405416`*^9}},ExpressionUUID->"f1b7a084-81e9-4fe3-b9e1-\
+0645294f8b72"]
+},
+WindowSize->{775, 593},
+WindowMargins->{{172, Automatic}, {17, Automatic}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1195, 34, 40, "Text",ExpressionUUID->"419d5e85-56ec-47e8-ba3e-d103f97a8829"],
+Cell[1756, 56, 5237, 146, 257, "Input",ExpressionUUID->"f1b7a084-81e9-4fe3-b9e1-0645294f8b72"]
+}
+]
+*)
+

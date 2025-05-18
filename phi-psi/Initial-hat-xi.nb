@@ -1,0 +1,246 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8170,        238]
+NotebookOptionsPosition[      7781,        224]
+NotebookOutlinePosition[      8123,        239]
+CellTagsIndexPosition[      8080,        236]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ StyleBox["The initial expressions of ",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["U", "5"], "(", 
+    SuperscriptBox["\[Xi]", "i"], ")"}], TraditionalForm]],
+  FontSize->18,ExpressionUUID->"bd33f39d-ad1f-4b4b-b8ec-f008be9994c9"],
+ StyleBox[" for ",
+  FontSize->18],
+ StyleBox["1 \[LessEqual] i \[LessEqual] 5. Here ", "InlineFormula",
+  FontSize->18],
+ StyleBox["UofXi[i]", "InlineFormula",
+  FontSize->18,
+  FontColor->RGBColor[0, 0, 1]],
+ StyleBox[" denotes ", "InlineFormula",
+  FontSize->18],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["U", "5"], "(", 
+    SuperscriptBox["\[Xi]", "i"], ")"}], TraditionalForm]],
+  FontSize->18,ExpressionUUID->"6904ec3e-b0e2-4b7e-b07a-a8b9b723c907"],
+ StyleBox[".",
+  FontSize->18]
+}], "Text",
+ CellChangeTimes->{{3.956522239069229*^9, 3.9565222950081816`*^9}, {
+  3.9565223737278595`*^9, 3.9565224492119884`*^9}, {3.956523141397149*^9, 
+  3.956523146083638*^9}, {3.956523192963519*^9, 
+  3.9565231990785494`*^9}},ExpressionUUID->"27d07c7a-0c7d-42de-acc4-\
+c8ef6f551063"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"UofXi", "[", "1", "]"}], "=", 
+   RowBox[{
+    RowBox[{"11", " ", "\[Xi]"}], "-", 
+    RowBox[{"60", " ", 
+     SuperscriptBox["\[Xi]", "2"]}], "+", 
+    RowBox[{"175", " ", 
+     SuperscriptBox["\[Xi]", "3"]}], "-", 
+    RowBox[{"250", " ", 
+     SuperscriptBox["\[Xi]", "4"]}], "+", 
+    RowBox[{"125", " ", 
+     SuperscriptBox["\[Xi]", "5"]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"UofXi", "[", "2", "]"}], "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "24"}], " ", "\[Xi]"}], "+", 
+    RowBox[{"675", " ", 
+     SuperscriptBox["\[Xi]", "2"]}], "-", 
+    RowBox[{"6700", " ", 
+     SuperscriptBox["\[Xi]", "3"]}], "+", 
+    RowBox[{"37300", " ", 
+     SuperscriptBox["\[Xi]", "4"]}], "-", 
+    RowBox[{"132500", " ", 
+     SuperscriptBox["\[Xi]", "5"]}], "+", 
+    RowBox[{"316875", " ", 
+     SuperscriptBox["\[Xi]", "6"]}], "-", 
+    RowBox[{"512500", " ", 
+     SuperscriptBox["\[Xi]", "7"]}], "+", 
+    RowBox[{"531250", " ", 
+     SuperscriptBox["\[Xi]", "8"]}], "-", 
+    RowBox[{"312500", " ", 
+     SuperscriptBox["\[Xi]", "9"]}], "+", 
+    RowBox[{"78125", " ", 
+     SuperscriptBox["\[Xi]", "10"]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"UofXi", "[", "3", "]"}], "=", 
+   RowBox[{
+    RowBox[{"21", " ", "\[Xi]"}], "-", 
+    RowBox[{"2010", " ", 
+     SuperscriptBox["\[Xi]", "2"]}], "+", 
+    RowBox[{"49865", " ", 
+     SuperscriptBox["\[Xi]", "3"]}], "-", 
+    RowBox[{"615750", " ", 
+     SuperscriptBox["\[Xi]", "4"]}], "+", 
+    RowBox[{"4744125", " ", 
+     SuperscriptBox["\[Xi]", "5"]}], "-", 
+    RowBox[{"25301250", " ", 
+     SuperscriptBox["\[Xi]", "6"]}], "+", 
+    RowBox[{"98718750", " ", 
+     SuperscriptBox["\[Xi]", "7"]}], "-", 
+    RowBox[{"290062500", " ", 
+     SuperscriptBox["\[Xi]", "8"]}], "+", 
+    RowBox[{"649187500", " ", 
+     SuperscriptBox["\[Xi]", "9"]}], "-", 
+    RowBox[{"1103906250", " ", 
+     SuperscriptBox["\[Xi]", "10"]}], "+", 
+    RowBox[{"1401562500", " ", 
+     SuperscriptBox["\[Xi]", "11"]}], "-", 
+    RowBox[{"1281250000", " ", 
+     SuperscriptBox["\[Xi]", "12"]}], "+", 
+    RowBox[{"791015625", " ", 
+     SuperscriptBox["\[Xi]", "13"]}], "-", 
+    RowBox[{"292968750", " ", 
+     SuperscriptBox["\[Xi]", "14"]}], "+", 
+    RowBox[{"48828125", " ", 
+     SuperscriptBox["\[Xi]", "15"]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"UofXi", "[", "4", "]"}], "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "8"}], " ", "\[Xi]"}], "+", 
+    RowBox[{"2984", " ", 
+     SuperscriptBox["\[Xi]", "2"]}], "-", 
+    RowBox[{"164200", " ", 
+     SuperscriptBox["\[Xi]", "3"]}], "+", 
+    RowBox[{"3899475", " ", 
+     SuperscriptBox["\[Xi]", "4"]}], "-", 
+    RowBox[{"54212000", " ", 
+     SuperscriptBox["\[Xi]", "5"]}], "+", 
+    RowBox[{"508067500", " ", 
+     SuperscriptBox["\[Xi]", "6"]}], "-", 
+    RowBox[{"3469550000", " ", 
+     SuperscriptBox["\[Xi]", "7"]}], "+", 
+    RowBox[{"18095862500", " ", 
+     SuperscriptBox["\[Xi]", "8"]}], "-", 
+    RowBox[{"74240000000", " ", 
+     SuperscriptBox["\[Xi]", "9"]}], "+", 
+    RowBox[{"243974062500", " ", 
+     SuperscriptBox["\[Xi]", "10"]}], "-", 
+    RowBox[{"648743750000", " ", 
+     SuperscriptBox["\[Xi]", "11"]}], "+", 
+    RowBox[{"1400732421875", " ", 
+     SuperscriptBox["\[Xi]", "12"]}], "-", 
+    RowBox[{"2449687500000", " ", 
+     SuperscriptBox["\[Xi]", "13"]}], "+", 
+    RowBox[{"3439882812500", " ", 
+     SuperscriptBox["\[Xi]", "14"]}], "-", 
+    RowBox[{"3816406250000", " ", 
+     SuperscriptBox["\[Xi]", "15"]}], "+", 
+    RowBox[{"3260253906250", " ", 
+     SuperscriptBox["\[Xi]", "16"]}], "-", 
+    RowBox[{"2060546875000", " ", 
+     SuperscriptBox["\[Xi]", "17"]}], "+", 
+    RowBox[{"903320312500", " ", 
+     SuperscriptBox["\[Xi]", "18"]}], "-", 
+    RowBox[{"244140625000", " ", 
+     SuperscriptBox["\[Xi]", "19"]}], "+", 
+    RowBox[{"30517578125", " ", 
+     SuperscriptBox["\[Xi]", "20"]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"UofXi", "[", "5", "]"}], "=", 
+   RowBox[{"\[Xi]", "-", 
+    RowBox[{"2650", " ", 
+     SuperscriptBox["\[Xi]", "2"]}], "+", 
+    RowBox[{"316275", " ", 
+     SuperscriptBox["\[Xi]", "3"]}], "-", 
+    RowBox[{"13553000", " ", 
+     SuperscriptBox["\[Xi]", "4"]}], "+", 
+    RowBox[{"314189375", " ", 
+     SuperscriptBox["\[Xi]", "5"]}], "-", 
+    RowBox[{"4710706250", " ", 
+     SuperscriptBox["\[Xi]", "6"]}], "+", 
+    RowBox[{"50353584375", " ", 
+     SuperscriptBox["\[Xi]", "7"]}], "-", 
+    RowBox[{"407308906250", " ", 
+     SuperscriptBox["\[Xi]", "8"]}], "+", 
+    RowBox[{"2592548671875", " ", 
+     SuperscriptBox["\[Xi]", "9"]}], "-", 
+    RowBox[{"13334386718750", " ", 
+     SuperscriptBox["\[Xi]", "10"]}], "+", 
+    RowBox[{"56443662109375", " ", 
+     SuperscriptBox["\[Xi]", "11"]}], "-", 
+    RowBox[{"199097265625000", " ", 
+     SuperscriptBox["\[Xi]", "12"]}], "+", 
+    RowBox[{"589929902343750", " ", 
+     SuperscriptBox["\[Xi]", "13"]}], "-", 
+    RowBox[{"1474730957031250", " ", 
+     SuperscriptBox["\[Xi]", "14"]}], "+", 
+    RowBox[{"3113805664062500", " ", 
+     SuperscriptBox["\[Xi]", "15"]}], "-", 
+    RowBox[{"5542136230468750", " ", 
+     SuperscriptBox["\[Xi]", "16"]}], "+", 
+    RowBox[{"8271881103515625", " ", 
+     SuperscriptBox["\[Xi]", "17"]}], "-", 
+    RowBox[{"10261718750000000", " ", 
+     SuperscriptBox["\[Xi]", "18"]}], "+", 
+    RowBox[{"10441009521484375", " ", 
+     SuperscriptBox["\[Xi]", "19"]}], "-", 
+    RowBox[{"8547973632812500", " ", 
+     SuperscriptBox["\[Xi]", "20"]}], "+", 
+    RowBox[{"5478668212890625", " ", 
+     SuperscriptBox["\[Xi]", "21"]}], "-", 
+    RowBox[{"2639770507812500", " ", 
+     SuperscriptBox["\[Xi]", "22"]}], "+", 
+    RowBox[{"896453857421875", " ", 
+     SuperscriptBox["\[Xi]", "23"]}], "-", 
+    RowBox[{"190734863281250", " ", 
+     SuperscriptBox["\[Xi]", "24"]}], "+", 
+    RowBox[{"19073486328125", " ", 
+     SuperscriptBox["\[Xi]", "25"]}]}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.956522219559513*^9, 
+  3.9565222321814656`*^9}},ExpressionUUID->"37aaaa7a-5d6d-48de-b9e0-\
+f24a3051f21f"]
+},
+WindowSize->{775, 593},
+WindowMargins->{{93, Automatic}, {Automatic, 45}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1069, 31, 40, "Text",ExpressionUUID->"27d07c7a-0c7d-42de-acc4-c8ef6f551063"],
+Cell[1630, 53, 6147, 169, 333, "Input",ExpressionUUID->"37aaaa7a-5d6d-48de-b9e0-f24a3051f21f"]
+}
+]
+*)
+
